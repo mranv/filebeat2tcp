@@ -1,0 +1,10 @@
+[package]
+name = "filebeat2tcp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = { version = "4.0", features = ["rustls"] }
+rustls = "0.20"
+rustls-pemfile = "1.0"
+serde_json = "1.0"
